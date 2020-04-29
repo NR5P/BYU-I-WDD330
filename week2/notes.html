@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="">
+    </head>
+    <body>
+        <h1>Week 1 notes</h1> 
+        
+        <h2>Chapter 2</h2>
+        <h3>template literals</h3>
+        <ul>
+            <li>allows both types of quotes to be used in string without having to escape</li>
+            <li>variables can be inserted directly into using ${}</li>
+        </ul>
+        <h3>Symbol</h3>
+        <ul>
+            <li>const varName = Symbol();</li>
+            <li>primitive datatype but allows non conflict naming</li>
+        </ul>
+        <h3>Infinity</h3>
+        <ul>
+            <li>special error value that represents any number to bit for the JS to deal with</li>
+        </ul>
+        <h3>Type Coercion</h3>
+        <ul>
+            <li>
+            happens when the operands of an operator are of different types. In
+            this case, JavaScript will attempt to convert one operand to an equivalent value
+            of
+            the other operand’s type.
+            </li>
+        </ul>
+        <h3>Logical operators</h3>
+        <ul>
+            <li>can use double negation (!!) to check if value is truthy or falsy</li>
+        </ul>
+        <h3>Bitwise operators</h3>
+        <ul>
+            <li>any number with a bitwise operator is converted into a 32 bit int.</li>
+            <li>The bitwise NOT operator ~ will convert the number to a 32-bit integer,
+            then
+            change all the 1 s to 0 and all the 0 s to 1 s</li>
+            <li>The bitwise AND operator, & , will convert both numbers into binary,
+            and returns
+            a number that in binary has a 1 in each position for which the
+            corresponding bits
+            of both operands are 1 s</li>
+            <li>There is also the bitwise OR operator, | , which will convert both
+            numbers into
+            binary and return a number that in binary has a 1 in each position for
+            which the
+            corresponding bits of either operands are 1 s</li>
+            <li>Another operation is the bitwise XOR operator, ^ , which stands for
+            “eXclusive
+            OR”. This will convert both numbers into binary and return a number that
+            in
+            binary has a 1 in each position for which the corresponding bits of either
+            operands are 1s, but not both 1 s</li>
+            <li>The bitwise shift operators, << and >>, will move the binary
+            representation a
+            given number of places to the right or left, which effectively multiplies ordivides
+            the number by powers of two</li>
+        </ul>
+        <h3>CHAPTER 3</h3>
+        <ul>
+            <li>using delete array[index] will leave an undefined array index</li>
+            <li>Destructuring allows you to const [x,y] = [1,2]; which allows you to put array
+            data into variables in one line</li>
+            <li>the join method turns an array into a string and if there is an argument passed it
+            will put a character in between</li>
+            <li>slice() creates a subarray. non destructive</li>
+            <li>splice(index, numOfItems, “toadd”) is destructive and inserts into an array</li>
+        </ul>
+        <h3>CHAPTER 4</h3>
+        <ul>
+            <li>forEach()
+            look through an array and invoke a callback on each argument.</li>
+            <li>map()
+            also loops through each item and invokes a callback function on each item and
+            returns an array with the result</li>
+            <li>reduce()
+            combines each result to return a single value.
+            usually takes two parameters. the first one represents the accumulated value
+            and second the current value.</li>
+            <li>filter()
+            returns an array that contains items from array called on, if the callback
+            returned true on the item        </li>
+
+        </ul>
+        <script src="" async defer></script>
+    </body>
+</html>
